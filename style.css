@@ -1,5 +1,12 @@
 #index-img {
     width: 500px;
     height: auto;
-    background-image: linear-gradient();
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }
