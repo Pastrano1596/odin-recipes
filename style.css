@@ -1,3 +1,7 @@
+body {
+    padding-top: 20px;
+}
+
 #index-img {
     width: 500px;
     height: auto;
@@ -9,4 +13,36 @@ a:link {
 
 a:visited {
     text-decoration: none;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    background-color: rgb(175, 30, 237);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: rgb(83, 9, 108);
+}
+
+@media screen and (max-width: 600px) {
+    ul.nav li {float:none;}
+    body {padding-top: 120px;}
 }
