@@ -3,8 +3,21 @@ body {
 }
 
 #index-img {
-    width: 500px;
-    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#index h1 {
+    text-shadow: 0px 0px 10px rgb(175, 30, 237);
+    text-align: center;
+}
+
+#index h2 {
+    text-align: center;
+    color: rgb(175, 30, 237);
+    text-shadow: 0px 3.5px 8px;
 }
 
 a:link {
@@ -46,3 +59,4 @@ a:visited {
     ul.nav li {float:none;}
     body {padding-top: 120px;}
 }
+
