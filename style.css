@@ -21,14 +21,6 @@
     text-shadow: 0px 3.5px 8px;
 }
 
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
 .nav {
     position: fixed;
     top: 0;
@@ -59,5 +51,26 @@ a:visited {
 @media screen and (max-width: 600px) {
     ul.nav li {float:none;}
     #index {padding-top: 120px;}
+}
+
+.socials-nav {
+    background-color: rgb(175, 30, 237);
+    overflow: auto;
+    bottom: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.socials-nav li {
+    float: left;
+    width: 25%;
+}
+
+.socials-nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
 }
 
