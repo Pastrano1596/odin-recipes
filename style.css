@@ -1,5 +1,6 @@
-body {
-    padding-top: 20px;
+#index {
+    padding-top: 35px;
+    background-color: gainsboro;
 }
 
 #index-img {
@@ -57,6 +58,6 @@ a:visited {
 
 @media screen and (max-width: 600px) {
     ul.nav li {float:none;}
-    body {padding-top: 120px;}
+    #index {padding-top: 120px;}
 }
 
