@@ -1,6 +1,6 @@
 #index {
     padding-top: 35px;
-    background-color: gainsboro;
+    background-color: white;
 }
 
 #index-img {
@@ -8,6 +8,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    height: 25%;
+    padding-bottom: 25px;
 }
 
 #index h1 {
@@ -34,6 +36,7 @@
 
 .nav li {
     float: left;
+    width: 33.33%;
 }
 
 .nav li a {
@@ -49,14 +52,18 @@
 }
 
 @media screen and (max-width: 600px) {
-    ul.nav li {float:none;}
+    ul.nav li {float:none; width: 100%;}
     #index {padding-top: 120px;}
+    ul.socials-nav li {float: none; width: 100%;}
+    #index-img {padding-bottom: 20px;}
 }
 
 .socials-nav {
     background-color: rgb(175, 30, 237);
     overflow: auto;
     bottom: 0;
+    margin: 0;
+    padding: 0;
     width: 100%;
     list-style-type: none;
 }
@@ -72,5 +79,9 @@
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
+}
+
+.socials-nav li a:hover {
+    background-color: rgb(83, 9, 108);
 }
 
